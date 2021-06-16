@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, GridContainer, CardGroup } from "@trussworks/react-uswds";
+import { useTranslation } from "react-i18next";
 
 import BioCard from "../components/BioCard";
 import Kara from "../bioPhotos/kara.jpeg";
@@ -32,9 +33,11 @@ function Team() {
     },
   ];
 
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h1>Meet Our Team</h1>
+      <h1>{t("team.header")}</h1>
       <GridContainer>
         <CardGroup row gap={3}>
           {team.map((person) => {

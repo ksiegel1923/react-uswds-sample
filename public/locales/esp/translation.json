@@ -1,0 +1,18 @@
+{
+  "contact": {
+    "title": "Contactarnos",
+    "pathname": "/contactarnos"
+  },
+  "team": {
+    "pathname": "/nuestoequipo",
+    "title": "Nuestro Equipo",
+    "header": "Conoce a nuestro equipo"
+  },
+  "header": "Pasantes de MOCTO CIC",
+  "pathnames": {
+    "/contactUs/en": "/contactarnos/esp",
+    "/contactUs/esp": "/contactarnos/en",
+    "/ourTeam/en": "/nuestoequipo/esp",
+    "/ourTeam/esp": "/nuestroequipo/esp"
+  }
+}
