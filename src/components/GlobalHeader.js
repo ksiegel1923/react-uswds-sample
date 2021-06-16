@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   Header,
   NavMenuButton,
@@ -44,12 +44,12 @@ function GlobalHeader() {
     // <Link to={contactPathname + "/" + i18n.language} key="contactUs">
     //   {t("contact.title")}
     // </Link>,
-    <Link to="/ourTeam" key="ourTeam">
+    <NavLink to="/ourTeam" key="ourTeam">
       {t("team.title")}
-    </Link>,
-    <Link to="/contactUs" key="contactUs">
+    </NavLink>,
+    <NavLink to="/contactUs" key="contactUs">
       {t("contact.title")}
-    </Link>,
+    </NavLink>,
   ];
 
   return (

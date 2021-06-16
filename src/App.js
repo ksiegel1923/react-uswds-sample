@@ -35,6 +35,13 @@ function App() {
           <Route path={contactPathname + "/" + i18n.language}>
             <Contact />
           </Route> */}
+          {/* <Redirect exact from="/" to={"/ourTeam"} />
+          <Route path={teamPathname}>
+            <Team />
+          </Route>
+          <Route path={contactPathname}>
+            <Contact />
+          </Route> */}
           <Redirect exact from="/" to="/ourTeam" />
           <Route path="/ourTeam">
             <Team />
