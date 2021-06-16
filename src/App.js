@@ -3,11 +3,9 @@ import "./App.css";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import GlobalHeader from "./components/GlobalHeader";
+import "@trussworks/react-uswds/lib/index.css";
 import "./styles/index.scss";
 
-import "@trussworks/react-uswds/lib/uswds.css";
-import "@trussworks/react-uswds/lib/index.css";
-import "@trussworks/react-uswds/lib/index.css";
 import {
   BrowserRouter as Router,
   Switch,

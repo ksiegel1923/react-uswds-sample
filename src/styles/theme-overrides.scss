@@ -1,3 +1,5 @@
+@import "./theme-colors.scss";
+
 /* GENERAL */
 $theme-image-path: "~uswds/src/img";
 
@@ -13,4 +15,4 @@ $theme-grid-container-max-width: "desktop-lg";
 
 /* COMPONENTS */
 $theme-hero-image: "~uswds/src/img/hero.png";
-$theme-grid-container-card-lg-padding: 0;
+$theme-card-border-color: $mocto__blue-design-token;

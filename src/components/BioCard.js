@@ -1,5 +1,5 @@
 import React from "react";
-import { GridContainer, Card, CardGroup } from "@trussworks/react-uswds";
+import { Card, CardGroup } from "@trussworks/react-uswds";
 
 function BioCard(props) {
   const { name, photo } = props;

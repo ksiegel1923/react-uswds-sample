@@ -3,6 +3,10 @@ import { Grid, GridContainer } from "@trussworks/react-uswds";
 
 import BioCard from "../components/BioCard";
 import Kara from "../bioPhotos/kara.jpeg";
+import Saiful from "../bioPhotos/saiful.jpeg";
+import Britney from "../bioPhotos/britney.jpeg";
+import Anya from "../bioPhotos/anya.jpeg";
+import Michelle from "../bioPhotos/Michelle.jpeg";
 
 function Team() {
   const team = [
@@ -12,19 +16,19 @@ function Team() {
     },
     {
       name: "Michelle Liu",
-      photo: Kara,
+      photo: Michelle,
     },
     {
       name: "Anya Dunaif",
-      photo: Kara,
+      photo: Anya,
     },
     {
       name: "Saiful Islam",
-      photo: Kara,
+      photo: Saiful,
     },
     {
       name: "Britney Johnson",
-      photo: Kara,
+      photo: Britney,
     },
   ];
 

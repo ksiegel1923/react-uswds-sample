@@ -7,6 +7,7 @@ import {
   GovBanner,
   PrimaryNav,
 } from "@trussworks/react-uswds";
+// import "./GlobalHeader.scss";
 
 function GlobalHeader() {
   const [expanded, setExpanded] = useState(false);
@@ -28,7 +29,7 @@ function GlobalHeader() {
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-            <Title>CIC x MOCTO</Title>
+            <Title>MOCTO CIC Interns</Title>
             <NavMenuButton onClick={onClick} label="Menu" />
           </div>
           <PrimaryNav
