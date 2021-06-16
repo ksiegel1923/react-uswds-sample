@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, GridContainer } from "@trussworks/react-uswds";
+import { Grid, GridContainer, CardGroup } from "@trussworks/react-uswds";
 
 import BioCard from "../components/BioCard";
 import Kara from "../bioPhotos/kara.jpeg";
@@ -36,7 +36,7 @@ function Team() {
     <div>
       <h1>Meet Our Team</h1>
       <GridContainer>
-        <Grid row gap={6}>
+        <CardGroup row gap={3}>
           {team.map((person) => {
             return (
               <Grid desktop={{ col: 4 }} tablet={{ col: 6 }}>
@@ -44,7 +44,7 @@ function Team() {
               </Grid>
             );
           })}
-        </Grid>
+        </CardGroup>
       </GridContainer>
     </div>
   );

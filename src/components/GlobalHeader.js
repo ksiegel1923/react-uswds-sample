@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Header,
   NavMenuButton,
@@ -7,19 +7,19 @@ import {
   GovBanner,
   PrimaryNav,
 } from "@trussworks/react-uswds";
-// import "./GlobalHeader.scss";
+import "./GlobalHeader.scss";
 
 function GlobalHeader() {
   const [expanded, setExpanded] = useState(false);
   const onClick = () => setExpanded((prvExpanded) => !prvExpanded);
 
   const pages = [
-    <NavLink to="/ourTeam" key="ourTeam">
+    <Link to="/ourTeam" key="ourTeam">
       Our Team
-    </NavLink>,
-    <NavLink to="/contactUs" key="contactUs">
+    </Link>,
+    <Link to="/contactUs" key="contactUs">
       Contact Us
-    </NavLink>,
+    </Link>,
   ];
 
   return (
