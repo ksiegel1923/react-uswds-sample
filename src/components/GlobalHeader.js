@@ -54,7 +54,7 @@ function GlobalHeader() {
 
   return (
     <div>
-      <GovBanner />
+      <GovBanner language={i18n.language === "en" ? "english" : "spanish"} />
       <Grid row gap={2}>
         {Object.keys(lngs).map((lng) => (
           <Button
