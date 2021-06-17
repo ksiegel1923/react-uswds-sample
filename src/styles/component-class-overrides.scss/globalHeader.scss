@@ -1,8 +1,4 @@
-@import "./theme-colors.scss";
-
-.usa-card__container {
-  color: $mocto__pink;
-}
+@import "../theme-overrides/theme-colors.scss";
 
 @media (max-width: 1023px) {
   .usa-logo__text {
@@ -14,6 +10,7 @@
   background-color: $mocto__blue;
 }
 
-.usa-form {
-  text-align: initial;
+.usa-logo__text {
+  color: $mocto__blue;
+  font-family: "Space Mono", monospace;
 }

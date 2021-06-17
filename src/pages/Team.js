@@ -11,7 +11,6 @@ function Team() {
 
   return (
     <div>
-      <LanguageButtons page={t("team.pathname")} />
       <h1>{t("team.header")}</h1>
       <GridContainer>
         <CardGroup row gap={3}>
@@ -27,6 +26,7 @@ function Team() {
             );
           })}
         </CardGroup>
+        <LanguageButtons page={t("team.pathname")} />
       </GridContainer>
     </div>
   );

@@ -2,6 +2,7 @@ import "./App.css";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import GlobalHeader from "./components/GlobalHeader";
+import GlobalFooter from "./components/GlobalFooter";
 import "@trussworks/react-uswds/lib/index.css";
 import "./styles/index.scss";
 
@@ -32,6 +33,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <GlobalFooter />
       </Router>
     </div>
   );

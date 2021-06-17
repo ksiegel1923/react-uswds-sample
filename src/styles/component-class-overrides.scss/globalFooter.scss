@@ -1,0 +1,14 @@
+@import "../theme-overrides/theme-colors.scss";
+
+.usa-footer__secondary-section {
+  background-color: $mocto__blue;
+  color: white;
+}
+
+.usa-footer__primary-link {
+  color: $mocto__blue;
+}
+
+.usa-footer__logo-img {
+  max-width: auto;
+}

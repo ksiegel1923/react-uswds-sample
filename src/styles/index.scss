@@ -7,9 +7,10 @@
 @import "~uswds/src/stylesheets/packages/_required.scss";
 
 // Custom theme settings/USWDS overrides go here
-@import "./theme-colors.scss";
-@import "./theme-overrides.scss";
+// @import "./theme-colors.scss";
+// @import "./theme-overrides.scss";
+@import "./theme-overrides/theme.scss";
 
 @import "uswds";
 
-@import "./class-overrides.scss";
+@import "./component-class-overrides.scss/class-overrides.scss";

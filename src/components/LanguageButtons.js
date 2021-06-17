@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { Button, Grid } from "@trussworks/react-uswds";
+import { Button, Grid, GridContainer } from "@trussworks/react-uswds";
 import { useTranslation } from "react-i18next";
 
 const lngs = {
@@ -18,7 +18,7 @@ function LanguageButtons({ page }) {
   };
 
   return (
-    <div>
+    <GridContainer className="language-buttons">
       <Grid row gap={2}>
         {Object.keys(lngs).map((lng) => (
           <Button
@@ -32,7 +32,7 @@ function LanguageButtons({ page }) {
           </Button>
         ))}
       </Grid>
-    </div>
+    </GridContainer>
   );
 }
 
