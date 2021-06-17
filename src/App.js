@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
@@ -15,7 +14,7 @@ import {
 import { useTranslation } from "react-i18next";
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   let teamPathname = t("team.pathname");
   let contactPathname = t("contact.pathname");
@@ -25,7 +24,7 @@ function App() {
       <Router>
         <GlobalHeader />
         <Switch>
-          <Redirect exact from="/" to={"/ourTeam"} />
+          <Redirect exact from="/" to={teamPathname} />
           <Route path={teamPathname}>
             <Team />
           </Route>

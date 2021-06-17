@@ -1,12 +1,17 @@
 import React from "react";
-import { Card } from "@trussworks/react-uswds";
+import { Card, CardBody, CardMedia } from "@trussworks/react-uswds";
 
 function BioCard(props) {
-  const { name, photo } = props;
+  const { name, photo, role } = props;
   return (
     <Card containerSize="card-lg">
-      <img src={photo} />
-      <h3>{name}</h3>
+      <CardMedia>
+        <img src={photo} alt={`${name}'s headshot`} />
+      </CardMedia>
+      <CardBody>
+        <h2>{name}</h2>
+        <h5>{role}</h5>
+      </CardBody>
     </Card>
   );
 }

@@ -7,7 +7,6 @@ import {
   GovBanner,
   PrimaryNav,
 } from "@trussworks/react-uswds";
-import "./GlobalHeader.scss";
 import { useTranslation } from "react-i18next";
 
 function GlobalHeader() {

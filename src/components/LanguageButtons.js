@@ -16,6 +16,7 @@ function LanguageButtons({ page }) {
     history.push(t(`pathnames.${page}`));
     i18n.changeLanguage(lng);
   };
+
   return (
     <div>
       <Grid row gap={2}>
