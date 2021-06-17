@@ -10,11 +10,14 @@ import {
 } from "@trussworks/react-uswds";
 import { useTranslation } from "react-i18next";
 
+import LanguageButtons from "../components/LanguageButtons";
+
 function Contact() {
   const { t } = useTranslation();
 
   return (
     <GridContainer>
+      <LanguageButtons page={t("contact.pathname")} />
       <Grid col>
         <h1>{t("contact.title")}</h1>
         <Grid table={{ col: true }}>

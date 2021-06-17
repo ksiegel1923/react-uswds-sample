@@ -9,6 +9,8 @@ import Britney from "../bioPhotos/britney.jpeg";
 import Anya from "../bioPhotos/anya.jpeg";
 import Michelle from "../bioPhotos/Michelle.jpeg";
 
+import LanguageButtons from "../components/LanguageButtons";
+
 function Team() {
   const team = [
     {
@@ -37,6 +39,7 @@ function Team() {
 
   return (
     <div>
+      <LanguageButtons page={t("team.pathname")} />
       <h1>{t("team.header")}</h1>
       <GridContainer>
         <CardGroup row gap={3}>

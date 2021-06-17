@@ -4,15 +4,13 @@
     "pathname": "/contactarnos"
   },
   "team": {
-    "pathname": "/nuestoequipo",
+    "pathname": "/nuestroequipo",
     "title": "Nuestro Equipo",
     "header": "Conoce a nuestro equipo"
   },
   "header": "Pasantes de MOCTO CIC",
   "pathnames": {
-    "/contactUs/en": "/contactarnos/esp",
-    "/contactUs/esp": "/contactarnos/en",
-    "/ourTeam/en": "/nuestoequipo/esp",
-    "/ourTeam/esp": "/nuestroequipo/esp"
+    "/contactarnos": "/contactUs",
+    "/nuestroequipo": "/ourTeam"
   }
 }

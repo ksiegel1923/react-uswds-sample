@@ -16,9 +16,7 @@
   },
   "header": "MOCTO CIC Interns",
   "pathnames": {
-    "/contactUs/en": "/contactarnos/esp",
-    "/contactUs/esp": "/contactarnos/en",
-    "/ourTeam/en": "/nuestoequipo/esp",
-    "/ourTeam/esp": "/nuestroequipo/esp"
+    "/contactUs": "/contactarnos",
+    "/ourTeam": "/nuestroequipo"
   }
 }

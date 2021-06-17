@@ -25,28 +25,11 @@ function App() {
       <Router>
         <GlobalHeader />
         <Switch>
-          {/* This commented out section is when I was trying to figure out how to
-          adjust the pathname based on the language (will come back to this): */}
-
-          {/* <Redirect exact from="/" to={"/ourTeam/" + i18n.language} />
-          <Route path={teamPathname + "/" + i18n.language}>
-            <Team />
-          </Route>
-          <Route path={contactPathname + "/" + i18n.language}>
-            <Contact />
-          </Route> */}
-          {/* <Redirect exact from="/" to={"/ourTeam"} />
+          <Redirect exact from="/" to={"/ourTeam"} />
           <Route path={teamPathname}>
             <Team />
           </Route>
           <Route path={contactPathname}>
-            <Contact />
-          </Route> */}
-          <Redirect exact from="/" to="/ourTeam" />
-          <Route path="/ourTeam">
-            <Team />
-          </Route>
-          <Route path="/contactUs">
             <Contact />
           </Route>
         </Switch>
