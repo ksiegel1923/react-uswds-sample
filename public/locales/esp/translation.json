@@ -15,6 +15,7 @@
     "header": "Conoce a nuestro equipo"
   },
   "header": "Pasantes de MOCTO CIC",
+  "agencyName": "Mayor's Office of the Chief Technology Officer",
   "pathnames": {
     "/contactarnos": "/contactUs",
     "/nuestroequipo": "/ourTeam"

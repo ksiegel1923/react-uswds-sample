@@ -10,7 +10,7 @@ function BioCard(props) {
       </CardMedia>
       <CardBody>
         <h2>{name}</h2>
-        <h5>{role}</h5>
+        <p>{role}</p>
       </CardBody>
     </Card>
   );
