@@ -1,0 +1,24 @@
+{
+  "contact": {
+    "pathname": "/contactUs",
+    "title": "Contact Us",
+    "form": {
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  },
+  "team": {
+    "pathname": "/ourTeam",
+    "title": "Our Team",
+    "header": "Meet Our Team"
+  },
+  "header": "MOCTO CIC Interns",
+  "pathnames": {
+    "/contactUs/en": "/contactarnos/esp",
+    "/contactUs/esp": "/contactarnos/en",
+    "/ourTeam/en": "/nuestoequipo/esp",
+    "/ourTeam/esp": "/nuestroequipo/esp"
+  }
+}
