@@ -1,0 +1,7 @@
+@import "../theme-overrides/theme-colors.scss";
+
+.language-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: auto;
+}

@@ -1,0 +1,16 @@
+@import "../theme-overrides/theme-colors.scss";
+
+@media (max-width: 1023px) {
+  .usa-logo__text {
+    display: flex;
+  }
+}
+
+.usa-menu-btn {
+  background-color: $mocto__blue;
+}
+
+.usa-logo__text {
+  color: $mocto__blue;
+  font-family: "Space Mono", monospace;
+}

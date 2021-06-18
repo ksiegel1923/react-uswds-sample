@@ -10,6 +10,8 @@
     "i18next": "^20.3.1",
     "i18next-browser-languagedetector": "^6.1.1",
     "i18next-http-backend": "^1.2.6",
+    "pa11y": "^6.0.0",
+    "pa11y-ci": "^2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.11.0",

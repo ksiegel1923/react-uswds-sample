@@ -15,10 +15,36 @@
     "header": "Meet Our Team"
   },
   "header": "MOCTO CIC Interns",
+  "agencyName": "Mayor's Office of the Chief Technology Officer",
   "pathnames": {
-    "/contactUs/en": "/contactarnos/esp",
-    "/contactUs/esp": "/contactarnos/en",
-    "/ourTeam/en": "/nuestoequipo/esp",
-    "/ourTeam/esp": "/nuestroequipo/esp"
-  }
+    "/contactUs": "/contactarnos",
+    "/ourTeam": "/nuestroequipo"
+  },
+  "teamMembers": [
+    {
+      "name": "Kara Siegel",
+      "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01VAJR5W72-d813fd8f70df-512",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Michelle Liu",
+      "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01UZD4LNUR-bbe96e1072eb-512",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Anya Dunaif",
+      "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01UE1PJ3P0-2061361ad9fe-512",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Saiful Islam",
+      "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01ULQH5BGS-15f7b717daa2-512",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Britney Johnson",
+      "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01UM1AU2V9-4ca04b1b0dee-512",
+      "role": "Product Manager"
+    }
+  ]
 }
