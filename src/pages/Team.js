@@ -26,7 +26,7 @@ function Team() {
             );
           })}
         </CardGroup>
-        <LanguageButtons page={t("team.pathname")} />
+        <LanguageButtons page={"team"} />
       </GridContainer>
     </div>
   );

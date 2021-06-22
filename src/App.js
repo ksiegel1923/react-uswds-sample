@@ -17,8 +17,8 @@ import { useTranslation } from "react-i18next";
 function App() {
   const { t } = useTranslation();
 
-  let teamPathname = t("team.pathname");
-  let contactPathname = t("contact.pathname");
+  let teamPathname = t("pathnames.team");
+  let contactPathname = t("pathnames.contact");
 
   return (
     <div className="App">

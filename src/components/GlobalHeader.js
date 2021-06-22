@@ -15,10 +15,10 @@ function GlobalHeader() {
   const onClick = () => setExpanded((prvExpanded) => !prvExpanded);
 
   const pages = [
-    <NavLink to={t("team.pathname")} key="ourTeam">
+    <NavLink to={t("pathnames.team")} key="ourTeam">
       {t("team.title")}
     </NavLink>,
-    <NavLink to={t("contact.pathname")} key="contactUs">
+    <NavLink to={t("pathnames.contact")} key="contactUs">
       {t("contact.title")}
     </NavLink>,
   ];

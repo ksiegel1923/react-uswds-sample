@@ -16,7 +16,7 @@ function Contact() {
           <ContactForm />
         </Grid>
       </Grid>
-      <LanguageButtons page={t("contact.pathname")} />
+      <LanguageButtons page={"contact"} />
     </GridContainer>
   );
 }

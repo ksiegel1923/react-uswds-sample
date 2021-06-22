@@ -13,8 +13,8 @@ function LanguageButtons({ page }) {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
-    history.push(t(`pathnames.${page}`));
     i18n.changeLanguage(lng);
+    history.push(t(`pathnames.${page}`));
   };
 
   return (

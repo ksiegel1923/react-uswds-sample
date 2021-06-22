@@ -1,6 +1,5 @@
 {
   "contact": {
-    "pathname": "/contactUs",
     "title": "Contact Us",
     "form": {
       "email": "Email",
@@ -10,15 +9,14 @@
     }
   },
   "team": {
-    "pathname": "/ourTeam",
     "title": "Our Team",
     "header": "Meet Our Team"
   },
   "header": "MOCTO CIC Interns",
   "agencyName": "Mayor's Office of the Chief Technology Officer",
   "pathnames": {
-    "/contactUs": "/contactarnos",
-    "/ourTeam": "/nuestroequipo"
+    "contact": "/contactUs",
+    "team": "/ourTeam"
   },
   "teamMembers": [
     {

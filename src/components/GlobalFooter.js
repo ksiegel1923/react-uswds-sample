@@ -7,14 +7,14 @@ function GlobalFooter() {
   const { t } = useTranslation();
   const pages = [
     <NavLink
-      to={t("team.pathname")}
+      to={t("pathnames.team")}
       key="ourTeam"
       className="usa-footer__primary-link"
     >
       {t("team.title")}
     </NavLink>,
     <NavLink
-      to={t("contact.pathname")}
+      to={t("pathnames.contacts")}
       key="contactUs"
       className="usa-footer__primary-link"
     >
