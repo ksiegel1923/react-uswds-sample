@@ -46,5 +46,8 @@
       "photo": "https://ca.slack-edge.com/T01UA6VHC7Q-U01UM1AU2V9-4ca04b1b0dee-512",
       "role": "Product Manager"
     }
-  ]
+  ],
+  "email-error": "Error: invalid email address",
+  "subject-error": "Error: empty subject field",
+  "message-error": "Error: empty message"
 }
