@@ -58,7 +58,7 @@ function GlobalFooter() {
             />
           }
           heading={
-            <p className="usa-footer__logo-heading">{t("agencyName")}</p>
+            <h2 className="usa-footer__logo-heading">{t("agencyName")}</h2>
           }
         />
       }

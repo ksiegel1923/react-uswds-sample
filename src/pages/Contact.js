@@ -10,13 +10,11 @@ function Contact() {
 
   return (
     <GridContainer>
+      <LanguageButtons page={"contact"} />
       <Grid col>
         <h1>{t("contact.title")}</h1>
-        <Grid table={{ col: true }}>
-          <ContactForm />
-        </Grid>
+        <ContactForm />
       </Grid>
-      <LanguageButtons page={"contact"} />
     </GridContainer>
   );
 }

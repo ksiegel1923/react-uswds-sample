@@ -3,12 +3,19 @@
 /* GENERAL */
 $theme-image-path: "~uswds/src/img";
 
+/* COLOR */
+$theme-text-color: $mocto__blue-design-token;
+$theme-link-color: $mocto__blue-design-token;
+$theme-link-active-color: $mocto__highlight-blue-design-token;
+$theme-link-hover-color: $mocto__pink-design-token;
+
 /* TYPOGRAPHY */
 $theme-respect-user-font-size: false;
 $theme-root-font-size: 14px;
 $theme-font-path: "~uswds/src/fonts";
-$theme-font-type-sans: "public-sans";
+$theme-font-type-mono: "roboto-mono";
 $theme-style-body-element: true;
+$theme-font-role-body: "mono";
 
 /* SPACING */
 $theme-grid-container-max-width: "desktop-lg";

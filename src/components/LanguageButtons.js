@@ -12,6 +12,7 @@ function LanguageButtons({ page }) {
   const history = useHistory();
   const { t, i18n } = useTranslation();
 
+  //Changes the page's language as well as the language of the pathname
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     history.push(t(`pathnames.${page}`));
@@ -19,7 +20,7 @@ function LanguageButtons({ page }) {
 
   return (
     <GridContainer className="language-buttons">
-      <Grid row gap={2}>
+      <Grid row gap={2} className="language-buttons__grid">
         {Object.keys(lngs).map((lng) => (
           <Button
             unstyled
