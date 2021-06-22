@@ -4,4 +4,12 @@
   display: flex;
   flex-direction: row-reverse;
   margin-right: auto;
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  .language-buttons__grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
