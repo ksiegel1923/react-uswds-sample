@@ -12,6 +12,13 @@ import {
 import { useTranslation } from "react-i18next";
 import validator from "validator";
 
+//2 questions about validation:
+// when I am starting on English, leave a field blank, press the link, then switch to Spanish
+// the error goes away but this case never occurs in other instances
+
+//because I am pushing the error to a state variable the language doesn't change
+//is there a way to fix this?
+
 function ContactForm() {
   const { t } = useTranslation();
   const [formInput, setFormInput] = useState({
@@ -33,6 +40,8 @@ function ContactForm() {
   };
 
   const createError = (errorLink, field) => {
+    console.log(t(`${field}-error`));
+    console.log(`${field}-error`);
     return (
       <ErrorMessage key={`${field}-error`}>
         <Link href={errorLink}>{t(`${field}-error`)}</Link>
