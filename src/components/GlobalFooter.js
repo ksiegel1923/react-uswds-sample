@@ -14,7 +14,7 @@ function GlobalFooter() {
       {t("team.title")}
     </NavLink>,
     <NavLink
-      to={t("pathnames.contacts")}
+      to={t("pathnames.contact")}
       key="contactUs"
       className="usa-footer__primary-link"
     >

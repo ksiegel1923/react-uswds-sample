@@ -3,6 +3,10 @@ import { useHistory } from "react-router-dom";
 import { Button, Grid, GridContainer } from "@trussworks/react-uswds";
 import { useTranslation } from "react-i18next";
 
+//Question:
+//Upon first load when switching from English to Spanish the pathname fails to refresh
+//But it works in every other instance
+
 const lngs = {
   en: { nativeName: "English" },
   esp: { nativeName: "Español" },
